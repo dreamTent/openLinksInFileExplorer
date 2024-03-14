@@ -191,9 +191,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:openLinksInFileExplorerSetup"
+        "ProductName" = "8:openLinksInFileExplorer"
         "ProductCode" = "8:{76DE84CC-58B1-4A90-976B-BAAAC11350A9}"
-        "PackageCode" = "8:{1A33981F-627F-4423-BA66-7DE56BC16C57}"
+        "PackageCode" = "8:{6231CB33-F31C-4D2F-8E4C-F33F7D0E0492}"
         "UpgradeCode" = "8:{BD6BFFA7-DE56-417A-90CB-1D7E04BEE74C}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -293,6 +293,78 @@
             {
                 "Keys"
                 {
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_76DBCAF287F54652B95C24071EDC1662"
+                    {
+                    "Name" = "8:localDrive"
+                    "Condition" = "8:"
+                    "AlwaysCreate" = "11:FALSE"
+                    "DeleteAtUninstall" = "11:FALSE"
+                    "Transitive" = "11:FALSE"
+                        "Keys"
+                        {
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_025BB74D4D4B4B2C802ABAA7868736DA"
+                            {
+                            "Name" = "8:shell"
+                            "Condition" = "8:"
+                            "AlwaysCreate" = "11:FALSE"
+                            "DeleteAtUninstall" = "11:FALSE"
+                            "Transitive" = "11:FALSE"
+                                "Keys"
+                                {
+                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_F8C2B8F43EA64FC3A854BB96110E38FE"
+                                    {
+                                    "Name" = "8:open"
+                                    "Condition" = "8:"
+                                    "AlwaysCreate" = "11:FALSE"
+                                    "DeleteAtUninstall" = "11:FALSE"
+                                    "Transitive" = "11:FALSE"
+                                        "Keys"
+                                        {
+                                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_CDED0D22D8754C20AD2EEB3B6DB27A95"
+                                            {
+                                            "Name" = "8:command"
+                                            "Condition" = "8:"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "DeleteAtUninstall" = "11:FALSE"
+                                            "Transitive" = "11:FALSE"
+                                                "Keys"
+                                                {
+                                                }
+                                                "Values"
+                                                {
+                                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_AC1B2239BF464048A8C93882FFA60EE8"
+                                                    {
+                                                    "Name" = "8:"
+                                                    "Condition" = "8:"
+                                                    "Transitive" = "11:FALSE"
+                                                    "ValueTypes" = "3:1"
+                                                    "Value" = "8:C:\\Program Files (x86)\\openLinksInFileExplorer\\openLinksInFileExplorer\\openLinksInFileExplorerCore.exe %1"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        "Values"
+                                        {
+                                        }
+                                    }
+                                }
+                                "Values"
+                                {
+                                }
+                            }
+                        }
+                        "Values"
+                        {
+                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_476EB7F387A646E99C5EF13BC69842FC"
+                            {
+                            "Name" = "8:URL Protocol"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "ValueTypes" = "3:1"
+                            "Value" = "8:"
+                            }
+                        }
+                    }
                 }
             }
             "HKU"
@@ -714,7 +786,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_51D18047CD4746F088A28B6774FC05AB"
             {
-            "SourcePath" = "8:..\\openLinksInFileExplorerCore\\obj\\Release\\net8.0\\apphost.exe"
+            "SourcePath" = "8:..\\openLinksInFileExplorerCore\\obj\\Debug\\net8.0\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_CC232A272A944CAB83B8C2403BCB35FE"
@@ -742,7 +814,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_BD24E0AFA5D046CD945B756DFDF3430A"
             {
-            "SourcePath" = "8:..\\openLinksInFileExplorer\\obj\\Release\\net8.0-windows\\apphost.exe"
+            "SourcePath" = "8:..\\openLinksInFileExplorer\\obj\\Debug\\net8.0-windows\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_CC232A272A944CAB83B8C2403BCB35FE"
