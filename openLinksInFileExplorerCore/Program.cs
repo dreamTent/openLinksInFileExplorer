@@ -13,6 +13,8 @@ namespace openLinksInFileExplorerCore
          * 
          * localDrive:///C:\
          * localDrive:///C:\Users\testuser\Documents\testFileGood.txt
+         * localDrive:///%UserProfile%\
+         * localDrive:///%UserProfile%\Documents
          * 
          */
 
@@ -66,6 +68,7 @@ namespace openLinksInFileExplorerCore
                 Console.ReadLine();
 
             }
+            Console.ReadLine();
         }
         static string ConvertBrowserPathToWindowsPath(string browserPath)
         {
@@ -97,10 +100,16 @@ namespace openLinksInFileExplorerCore
 
 
             //Regex for checking if path is valid and athears to the settings
-            if (!Regex.IsMatch(path, @"^[a-zA-Z]:\\(?:[^\\/:*?<>|""\u0000-\u001F\u009F]+\\)*[^\\/:*?<>|""\u0000-\u001F\u0080-\u009F]*$"))
+            //TODO: check regex
+            Console.WriteLine(path);
+            if (!Regex.IsMatch(path, @"^([a-zA-Z]:\\|%UserProfile%\\)(?:[^\\/:*?<>|""\u0000-\u001F\u0080-\u009F]+\\)*[^\\/:*?<>|""\u0000-\u001F\u0080-\u009F]*$"))
             {
+                
                 throw new Exception("bad characters in path");
             }
+            // Expand Enviroment Variables
+            path = Environment.ExpandEnvironmentVariables(path);
+            Console.WriteLine("Enviroment Expanded path: " + path);
 
             //get file extension of path
             string extension = Path.GetExtension(path);
