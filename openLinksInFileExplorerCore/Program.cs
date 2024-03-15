@@ -8,7 +8,13 @@ namespace openLinksInFileExplorerCore
     internal class Program
     {
         static string protocolName = "localdrive:///";
-        static string[] allowedFiles = [".docx",".doc",".xlsx","xls","pptx","ppt",".txt",".pdf",".rtf"];
+        //get config
+        static string[] allowedFiles = new ConfigLoader().get().allowedExtensions;
+
+
+
+
+
         /* Examples:
          * 
          * localDrive:///C:\
@@ -21,7 +27,10 @@ namespace openLinksInFileExplorerCore
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+
+
+
             Console.WriteLine("Allowed protocoll: " + protocolName);
             Console.WriteLine("Allowed File extensions: " + string.Join(", ", allowedFiles));
 
@@ -68,7 +77,6 @@ namespace openLinksInFileExplorerCore
                 Console.ReadLine();
 
             }
-            Console.ReadLine();
         }
         static string ConvertBrowserPathToWindowsPath(string browserPath)
         {
