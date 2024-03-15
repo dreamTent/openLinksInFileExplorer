@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace openLinksInFileExplorerCore
+using System.Runtime.InteropServices;
+namespace openLinksInFileExplorer
 {
-    internal class Program
+    internal class ProtocolHandler
     {
         static string protocolName = "localdrive:///";
         //get config
@@ -25,7 +25,7 @@ namespace openLinksInFileExplorerCore
          */
 
 
-        static void Main(string[] args)
+        public static void main(string[] args)
         {
 
 
@@ -71,13 +71,13 @@ namespace openLinksInFileExplorerCore
                 }
 
             } catch (Exception e) {
+                MessageBox.Show(e.Message + "\r\n\r\nPath: " + originalWebPath, "Error: The link cant be opened in your Explorer because:", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
-                Console.WriteLine("error message:");
-                Console.WriteLine(e.Message);
-                Console.ReadLine();
+
 
             }
         }
+
         static string ConvertBrowserPathToWindowsPath(string browserPath)
         {
             //check if the path starts with the right protocol name

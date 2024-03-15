@@ -2,7 +2,7 @@
 
 namespace openLinksInFileExplorer
 {
-    using openLinksInFileExplorerCore;
+
     partial class Form1
     {
 
@@ -32,6 +32,7 @@ namespace openLinksInFileExplorer
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             button_accept = new Button();
             textBox_allowedExtensions = new TextBox();
             label1 = new Label();
@@ -72,8 +73,9 @@ namespace openLinksInFileExplorer
             Controls.Add(label1);
             Controls.Add(textBox_allowedExtensions);
             Controls.Add(button_accept);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
-            Text = "Form1";
+            Text = "Open Links in File Explorer";
             ResumeLayout(false);
             PerformLayout();
         }

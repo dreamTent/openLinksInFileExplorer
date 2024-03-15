@@ -13,8 +13,4 @@
     <Content Include="icons\openLinkInFileExplorer-ICON.ico" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\openLinksInFileExplorerCore\openLinksInFileExplorerCore.csproj" />
-  </ItemGroup>
-
 </Project>

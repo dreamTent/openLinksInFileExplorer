@@ -1,4 +1,3 @@
-using openLinksInFileExplorerCore;
 namespace openLinksInFileExplorer
 {
     internal static class Program
@@ -11,18 +10,27 @@ namespace openLinksInFileExplorer
         [STAThread]
         static void Main(string[] args)
         {
+            //load config
+            string protocolName = "localdrive:///";
 
 
-
+            //check what arguments were given
             if (args.Length > 0 && (args[0] == "/Uninstall" || args[0] == "/uninstall"))
             {
+                //uninstall
                 new ConfigLoader().delete();
                 return;
             }
+            else if (args.Length > 0 && args[0].StartsWith(protocolName))
+            {
+
+                //start protocol handler
+                ProtocolHandler.main(args);
+
+            }
             else
             {
-                // To customize application configuration such as set high DPI settings or default font,
-                // see https://aka.ms/applicationconfiguration.
+                //load gui
                 ApplicationConfiguration.Initialize();
                 Application.Run(new Form1());
             }

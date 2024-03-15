@@ -15,12 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_51D18047CD4746F088A28B6774FC05AB"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_BD24E0AFA5D046CD945B756DFDF3430A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -378,7 +372,7 @@
                                                     "Condition" = "8:"
                                                     "Transitive" = "11:FALSE"
                                                     "ValueTypes" = "3:1"
-                                                    "Value" = "8:C:\\Program Files (x86)\\openLinksInFileExplorer\\openLinksInFileExplorer\\openLinksInFileExplorerCore.exe %1"
+                                                    "Value" = "8:C:\\Program Files (x86)\\openLinksInFileExplorer\\openLinksInFileExplorer\\openLinksInFileExplorer.exe %1"
                                                     }
                                                 }
                                             }
@@ -767,34 +761,6 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_51D18047CD4746F088A28B6774FC05AB"
-            {
-            "SourcePath" = "8:..\\openLinksInFileExplorerCore\\obj\\Debug\\net8.0\\apphost.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_CC232A272A944CAB83B8C2403BCB35FE"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:PublishItems"
-            "OutputProjectGuid" = "8:{21534C99-E328-4BA9-891B-76D4702B6703}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_BD24E0AFA5D046CD945B756DFDF3430A"
             {
             "SourcePath" = "8:..\\openLinksInFileExplorer\\obj\\Debug\\net8.0-windows\\apphost.exe"

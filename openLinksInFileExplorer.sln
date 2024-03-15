@@ -5,8 +5,6 @@ VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "openLinksInFileExplorer", "openLinksInFileExplorer\openLinksInFileExplorer.csproj", "{1A301921-A591-4E9F-86D3-D7767FFF3F74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "openLinksInFileExplorerCore", "openLinksInFileExplorerCore\openLinksInFileExplorerCore.csproj", "{21534C99-E328-4BA9-891B-76D4702B6703}"
-EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "openLinksInFileExplorerSetup", "openLinksInFileExplorerSetup\openLinksInFileExplorerSetup.vdproj", "{FA764277-FF76-4CEB-B7FB-2AB24A73C8DC}"
 EndProject
 Global
@@ -19,10 +17,6 @@ Global
 		{1A301921-A591-4E9F-86D3-D7767FFF3F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A301921-A591-4E9F-86D3-D7767FFF3F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A301921-A591-4E9F-86D3-D7767FFF3F74}.Release|Any CPU.Build.0 = Release|Any CPU
-		{21534C99-E328-4BA9-891B-76D4702B6703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21534C99-E328-4BA9-891B-76D4702B6703}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21534C99-E328-4BA9-891B-76D4702B6703}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21534C99-E328-4BA9-891B-76D4702B6703}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FA764277-FF76-4CEB-B7FB-2AB24A73C8DC}.Debug|Any CPU.ActiveCfg = Debug
 		{FA764277-FF76-4CEB-B7FB-2AB24A73C8DC}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection

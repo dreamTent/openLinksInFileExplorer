@@ -12,7 +12,7 @@ using System.Xml.Schema;
 using System.Xml.Serialization;
 
 
-namespace openLinksInFileExplorerCore
+namespace openLinksInFileExplorer
 {
     public class ConfigLoader
     {
