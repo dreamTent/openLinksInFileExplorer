@@ -25,6 +25,12 @@
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_CF997A1B2BAD4C2EB042023B060CDF85"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -150,6 +156,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CF997A1B2BAD4C2EB042023B060CDF85"
+            {
+            "SourcePath" = "8:..\\openLinksInFileExplorer\\icons\\openLinkInFileExplorer-ICON.ico"
+            "TargetName" = "8:openLinkInFileExplorer-ICON.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_CC232A272A944CAB83B8C2403BCB35FE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -206,15 +232,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:openLinksInFileExplorer"
-        "ProductCode" = "8:{76DE84CC-58B1-4A90-976B-BAAAC11350A9}"
-        "PackageCode" = "8:{B54DD685-F824-4073-8A36-BDA88D81A736}"
+        "ProductCode" = "8:{6C16B3A9-6C87-498F-967D-11716B77E04C}"
+        "PackageCode" = "8:{5C624A74-BA57-474A-A232-D01755BF0BC7}"
         "UpgradeCode" = "8:{BD6BFFA7-DE56-417A-90CB-1D7E04BEE74C}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
+        "InstallAllUsers" = "11:TRUE"
+        "ProductVersion" = "8:0.1.0"
         "Manufacturer" = "8:openLinksInFileExplorer"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -224,7 +250,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:"
+        "ARPPRODUCTICON" = "8:_CF997A1B2BAD4C2EB042023B060CDF85"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"

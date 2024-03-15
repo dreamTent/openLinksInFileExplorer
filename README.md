@@ -1,3 +1,5 @@
+![alt text](/openLinksInFileExplorer/icons/openLinkInFileExplorer%20ICON.png)
+
 #  openLinksInFileExplorer
 A Software that lets you create links in the web, that when opened highlight the linked filde on your local Windows File Explorer
 

@@ -6,7 +6,12 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>icons\openLinkInFileExplorer-ICON.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="icons\openLinkInFileExplorer-ICON.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\openLinksInFileExplorerCore\openLinksInFileExplorerCore.csproj" />
